@@ -200,10 +200,8 @@ body {
     overflow: hidden;
     max-width: 1132px;
     display: flex;
-    /* justify-content:space-between; */
     align-items: right;
     background-color: #ffffff;
-      /*
     max-width: 1152px;
     margin: 0 auto;
     padding: 0 20px;
@@ -211,8 +209,8 @@ body {
     justify-content:left;
     align-items: center;
   }
-      */
-  }
+
+  
   
   .tab button {
     background-color: inherit; 
