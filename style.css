@@ -303,3 +303,68 @@ body {
   .customize-link:hover {
     text-decoration: underline; /* Underline on hover */
   }  
+
+
+
+  footer {
+    background-color: #d3d3c3;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap columns if needed */
+    justify-content: space-between; /* Distribute columns evenly */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-column {
+    flex: 1; /* Make each column take up 1/3 space */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .footer-column h3 {
+    margin-bottom: 10px;
+}
+
+footer .nav-links,
+footer .recent-posts {
+    list-style: none;
+    padding: 0;
+}
+
+footer .nav-links li,
+footer .recent-posts li {
+    margin-bottom: 5px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #333; /* Greenish */
+}
+
+/* Media Queries for Responsiveness  */
+
+@media (max-width: 1152px) {
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Stack columns vertically on small screens */
+  }
+  .footer-column {
+    flex: initial; /* Remove forced sizing for better flow */
+  }
+}
