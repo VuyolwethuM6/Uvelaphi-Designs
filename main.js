@@ -48,7 +48,5 @@ function designEvent() {
       // Prevent the default behavior of the link
       event.preventDefault();
       
-      // Add your customization functionality here
-      alert("You clicked the Customize link!");
     });
   });
