@@ -14,7 +14,7 @@ function designEvent() {
     var cultureTribe = document.getElementById("culture-tribe-dropdown").value;
     document.getElementById("event-type").textContent = eventType;
     document.getElementById("culture-tribe").textContent = cultureTribe;
-    // Here you can add additional logic to proceed with the design process
+    
   }
 
   function openTab(evt, tabName) {
