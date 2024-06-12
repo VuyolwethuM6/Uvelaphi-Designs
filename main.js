@@ -42,7 +42,6 @@ function designEvent() {
   
   var customizeLinks = document.querySelectorAll('.customize-link');
   
-  // Loop through each customize link and add click event listener
   customizeLinks.forEach(function(link) {
     link.addEventListener('click', function(event) {
       // Prevent the default behavior of the link
