@@ -38,8 +38,6 @@ function designEvent() {
   document.getElementById("tab1").style.display = "block";
   document.getElementsByClassName("tablinks")[0].className += " active";
   
-  
-  
   var customizeLinks = document.querySelectorAll('.customize-link');
   
   customizeLinks.forEach(function(link) {
