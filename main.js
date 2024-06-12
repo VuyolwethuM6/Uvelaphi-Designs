@@ -39,7 +39,7 @@ function designEvent() {
   document.getElementsByClassName("tablinks")[0].className += " active";
   
   
-  // Get all customize links
+  
   var customizeLinks = document.querySelectorAll('.customize-link');
   
   // Loop through each customize link and add click event listener
