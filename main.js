@@ -33,7 +33,6 @@ function designEvent() {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-  
 
   document.getElementById("tab1").style.display = "block";
   document.getElementsByClassName("tablinks")[0].className += " active";
@@ -41,9 +40,8 @@ function designEvent() {
   var customizeLinks = document.querySelectorAll('.customize-link');
   
   customizeLinks.forEach(function(link) {
-    link.addEventListener('click', function(event) {
-      
-      event.preventDefault();
+    link.addEventListener('click', function(event) {  
+    event.preventDefault();
       
     });
   });
