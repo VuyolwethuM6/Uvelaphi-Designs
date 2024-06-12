@@ -44,7 +44,7 @@ function designEvent() {
   
   customizeLinks.forEach(function(link) {
     link.addEventListener('click', function(event) {
-      // Prevent the default behavior of the link
+      
       event.preventDefault();
       
     });
