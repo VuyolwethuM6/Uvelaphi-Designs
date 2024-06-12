@@ -34,7 +34,7 @@ function designEvent() {
     evt.currentTarget.className += " active";
   }
   
-  // Open the first tab by default
+
   document.getElementById("tab1").style.display = "block";
   document.getElementsByClassName("tablinks")[0].className += " active";
   
