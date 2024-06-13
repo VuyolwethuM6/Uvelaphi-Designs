@@ -245,9 +245,6 @@ body {
   }
   
   .card-grid {
-    /* display: grid;
-    grid-template-columns: repeat(4, 68px);
-    gap: 10px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
