@@ -256,7 +256,7 @@ body {
     height: 475px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    margin: 15px; /* Add some margin between cards */
+    margin: 15px; 
     border-radius: 5px;
   }
   
